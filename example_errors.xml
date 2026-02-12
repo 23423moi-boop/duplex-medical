@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+    <error>
+        <patientId>P-1001</patientId>
+        <patientName>Смирнов Алексей Петрович</patientName>
+        <department>Терапевтическое</department>
+        <errorCode>XML-ERR-001</errorCode>
+        <description>Ошибка импорта из XML: несоответствие формата данных</description>
+        <priority>high</priority>
+        <date>26.10.2025</date>
+        <dbName>XML Import Database</dbName>
+        <dbLink>https://xml-import/patient/1001</dbLink>
+    </error>
+    <error>
+        <patientId>P-1002</patientId>
+        <patientName>Козлова Елена Викторовна</patientName>
+        <department>Хирургическое</department>
+        <errorCode>XML-ERR-002</errorCode>
+        <description>Отсутствует обязательное поле "Дата рождения"</description>
+        <priority>critical</priority>
+        <date>26.10.2025</date>
+        <dbName>XML Import Database</dbName>
+        <dbLink>https://xml-import/patient/1002</dbLink>
+    </error>
+    <error>
+        <patientId>P-1003</patientId>
+        <patientName>Васильев Дмитрий Сергеевич</patientName>
+        <department>Кардиология</department>
+        <errorCode>XML-ERR-003</errorCode>
+        <description>Дублирование записи пациента</description>
+        <priority>medium</priority>
+        <date>26.10.2025</date>
+        <dbName>XML Import Database</dbName>
+        <dbLink>https://xml-import/patient/1003</dbLink>
+    </error>
+</errors>
