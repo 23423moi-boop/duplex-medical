@@ -1,25 +1,25 @@
-# duplex-medical
+# Duplex Medical (Kivy)
 
-## Project setup
-```
-npm install
-```
+Это настольное приложение на Python + Kivy, перенесённое из версии на Vue.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Установка
 
-### Compiles and minifies for production
-```
-npm run build
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-### Lints and fixes files
-```
-npm run lint
+## Запуск
+
+```bash
+python main.py
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-"# duplex-medical" 
+## Что уже перенесено
+
+- верхняя панель с навигацией по разделам;
+- главный экран со списком ошибок в данных пациентов;
+- фильтрация по статусу, отделению и типу ошибки;
+- импорт ошибок из XML (локальный файл или URL);
+- пример XML для импорта: `example_errors.xml`.
